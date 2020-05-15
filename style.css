@@ -1,0 +1,82 @@
+body {
+  background-color: #010165;
+  margin: 0px;
+}
+.header{
+  background-color: #00ffff;
+  text-align: center;
+}
+.instructions{
+  color: #00ffff;
+  font-size: 18px;
+  font-family: 'Work Sans';
+  display: inline;
+}
+.first-row{
+  text-align: center;
+  margin-top: 42px;
+  margin-bottom: 18px;
+
+}
+.table-row{
+  margin: 0 auto;
+  width: 400px;
+}
+.instruction-number{
+  color: #00ffff;
+  padding-right: 25px;
+  font-size: 36px;
+  font-family: 'Work Sans';
+}
+.instruction-text{
+  color: #fff;
+  padding: 10px;
+  font-size: 16px;
+  font-family: 'Work Sans';
+}
+.door-row{
+  text-align: center;
+  
+}
+.door-frame{
+  padding: 10px;
+  cursor: pointer;
+}
+.start-row{
+  margin: auto;
+  width: 120px;
+  height: 43px;
+  background-color: #eb6536;
+  padding-top: 18px;
+  font-family: 'Work Sans';
+  font-size: 18px;
+  text-align: center;
+  color: #010165;
+  margin-bottom: 9px;
+  cursor: pointer;
+}
+.score-row{
+  text-align: center;
+  width: 100%;
+}
+.score-text{
+  margin-right: 17px;
+    padding: 5px;
+    display: inline;
+    font-family: 'Work Sans';
+    font-size: 12px;
+    letter-spacing: 1.1px;
+    color: #ffffff;
+}
+.score-box{
+
+    margin-top: 9px;
+    display: inline-block;
+    padding: 8px;
+    margin: 18px;
+    margin-right: 29px;
+    width: 59px;
+    background-color: #00ffff;
+    font-family: 'Work Sans';
+    font-size: 45px;
+}

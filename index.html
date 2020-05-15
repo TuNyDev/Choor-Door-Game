@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Chore Door!</title>
+    <link href="./style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+  <div class="header">
+    <img src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/logo.svg">
+    </div>
+    <div class="first-row">
+    <img class="star" src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/star.svg">
+      <p class="instructions">Instructions</p>
+        <img class="star" src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/star.svg">
+    </div>
+    <table class="table-row">
+      <tr>
+        <td class="instruction-number">1</td>
+        <td class="instruction-text">Hiding behind one of these doors is the ChoreBot.</td>
+      </tr>
+      <tr>
+        <td class="instruction-number">2</td>
+        <td class="instruction-text">Your mission is to open all of the doors without running into the ChoreBot.</td>
+      </tr>
+      <tr>
+        <td class="instruction-number">3</td>
+        <td class="instruction-text">If you manage to avoid the ChoreBot until the very last door, you win!</td>
+      </tr>
+      <tr>
+        <td class="instruction-number">4</td>
+        <td class="instruction-text">See if you can score a winning streak!</td>
+      </tr>      
+    </table>
+    <div class="door-row">
+    <img id="door1" class="door-frame" src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/closed_door.svg">
+      <img id="door2" class="door-frame" src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/closed_door.svg">
+      <img id="door3" class="door-frame" src="https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/closed_door.svg">
+    </div>
+    <div class="start-row" id="start">Good Luck!</div>
+    <table class="score-row">
+      <tr>
+        <th class="score-text">Current Streak</th>
+        <th  class= "score-text">Best Streak</th>
+      </tr>
+      <tr>
+        <th class="score-box" id="score-number">0</th>
+        
+        <th  class="score-box" id="high-score-number">0</th>
+      </tr>
+    </table>
+    <script src="script.js" type="text/javascript"></script>
+  </body>
+</html>
